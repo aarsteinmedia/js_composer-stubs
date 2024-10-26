@@ -1,0 +1,30 @@
+{
+    "name": "aarsteinmedia/js_composer-stubs",
+    "description": "WPBakery Page Builder function, class, and global variable declaration stubs for easier static analysis.",
+    "homepage": "https://github.com/aarsteinmedia/js_composer-stubs",
+    "keywords": [
+        "js_composer",
+        "static analysis"
+    ],
+    "require-dev": {
+        "php": ">=7.1",
+        "ext-gettext": "*",
+        "squizlabs/php_codesniffer": "*",
+        "wp-coding-standards/wpcs": "*",
+        "dealerdirect/phpcodesniffer-composer-installer": "*",
+        "php-stubs/generator": "^0.5.0"
+    },
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Johan Martin Aarstein",
+            "email": "johan@aarstein.media"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

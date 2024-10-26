@@ -1,0 +1,7 @@
+vendor
+js_composer
+
+*.test.*
+.vscode
+
+.DS_Store
